@@ -1,0 +1,31 @@
+
+body{
+	background-color:#383838;
+	color:white;
+	line-height:1.23;
+}
+
+h1,h2{
+	color:white;
+}
+
+.ln{
+	list-style-type: square;
+}
+.map_wrapper{
+	margin : 5px;
+}
+
+.side_wrapper{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+	display: flex;
+	
+}
+	
+
+
+
+

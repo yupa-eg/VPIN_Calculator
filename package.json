@@ -1,0 +1,30 @@
+{
+  "name": "re_express",
+  "version": "0.9.1",
+  "description": "re_express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify src/client_web_VPIN_backtester_v05.js -t babelify --outfile public/bundle.js",
+    "build-js-worker": "browserify src/client_web_VPIN_backtester_v05_worker.js -t babelify --outfile public/bundle_worker.js"
+  },
+  "author": "sinmetal",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bignumber.js": "^6.0.0",
+    "browserify": "^16.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "influx": "^5.0.7",
+    "npm": "^5.7.1",
+    "request": "^2.83.0",
+    "rpc-websockets": "^4.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.0",
+    "babel-core": "^6.26.0",
+    "babelify": "^8.0.0"
+  }
+}
